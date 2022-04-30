@@ -6,7 +6,8 @@ namespace CalculandoImpostos // Note: actual namespace depends on the project na
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CalculoImposto calculoImposto = new CalculoImposto();
+            calculoImposto.Calculo();
         }
     }
 }
